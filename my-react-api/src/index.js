@@ -5,13 +5,15 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import XmlHttpRequestEx from "./apicrud/XmlHttpRequestEx";
 import FetchEx from "./apicrud/FetchApiEx";
+import AxiosEx from "./apicrud/AxiosEx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <XmlHttpRequestEx></XmlHttpRequestEx> */}
-    <FetchEx></FetchEx>
+    {/* <FetchEx></FetchEx> */}
+    <AxiosEx></AxiosEx>
   </React.StrictMode>
 );
 
